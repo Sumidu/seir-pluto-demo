@@ -128,7 +128,7 @@ function simple_SEIR(x, p, t; γ = 1/18, R₀ = rnaught, σ = 1/3.2, ω = 0.01)
     return [-γ*R₀*s*i + ω * r;       # ds/dt = -γR₀si          + ωr
              γ*R₀*s*i -  σ*e;        # de/dt =  γR₀si -σe
              σ*e - γ*i;              # di/dt =         σe -γi
-             γ*i - ω*r;              # dr/dt =             γi  - ωr
+             γ*i - ω*r;              # dr/dt =             γi  -  ωr
             ]
 	end
 
