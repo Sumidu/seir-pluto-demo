@@ -18,7 +18,7 @@ end
 # We create a code-block to allow loading libraries from multiple lines of code.
 begin
 	using LaTeXStrings, LinearAlgebra, SparseArrays, Statistics
-	using OrdinaryDiffEq
+	using OrdinaryDiffEq 
 	using Parameters, Plots
 	using PlutoUI 
 end
