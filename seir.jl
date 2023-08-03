@@ -20,7 +20,7 @@ begin
 	using LaTeXStrings, LinearAlgebra, SparseArrays, Statistics
 	using OrdinaryDiffEq
 	using Parameters, Plots
-	using PlutoUI
+	using PlutoUI 
 end
 
 
