@@ -26,7 +26,7 @@ end
 
 # ╔═╡ a13f15de-0f8e-4041-8876-684c579139f0
 md"""
-# Creating a simple SEIR Model in Julia.
+# Creating a simple SEIR Model in Julia. I hate Julia.
 
 In this notebook, we will see how to create a simple SEIR Model in Julia and how to solve the equations using the tsit5 solver.
 
